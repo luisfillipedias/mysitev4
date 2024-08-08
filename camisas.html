@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INF1A | Camisas</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="icon" href="./images/sadsadad.ico">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <a href="site.html">
+                <section class="logo">
+                    <img src="./images/icone.png" alt="LOGO">
+                </section>
+            </a>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="site.html">Início</a></li>
+                    <li><a href="informacoes.html">Informações</a></li>
+                    <li><a href="personagens.html">Personagens</a></li>
+                    <li><a href="musicas.html">Músicas</a></li>
+                    <li class="dropdown">
+                        <a href="site.html">Futebol</a>
+                        <div class="dropdown-content">
+                            <a href="time.html">Time</a>
+                            <a href="jogos.html">Jogos</a>
+                            <a href="camisas.html">Camisas</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <section class="dark-mode">
+                <button id="dark-mode-toggle">
+                    <img src="./images/darkmode.png" alt="Modo Escuro">
+                </button>
+            </section>
+        </div>
+    </header>
+
+    <main id="camisas">
+        <div class="icon-container">
+            <img src="./images/cabeçario.png" class="ICONEPRINCIPAL" alt="Cabeçario">
+        </div>
+        <div class="caixa-branca" id="caixa-branca">
+            <div class="header">
+                <h1 class="page-header__title">Camisas</h1>
+            </div>
+            
+            <div class="faixa-azul"></div>
+
+            <section class="camisa-gallery">
+                <div class="camisa-item">
+                    <img src="./images/camisa1.jpeg" alt="Camisa 1">
+                    <h2>Camisa</h2>
+                    <p>Camisa de Costas</p>
+                </div>
+                <div class="camisa-item">
+                    <img src="./images/camisa2.jpeg" alt="Camisa 2">
+                    <h2>Camisa</h2>
+                    <p>Camisa de Frente.</p>
+                </div>
+                <div class="camisa-item">
+                    <img src="./images/camisa3.jpeg" alt="Camisa 3">
+                    <h2>Camisa</h2>
+                    <p>Camisa de Lado.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INF1A | Jogos</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="icon" href="./images/sadsadad.ico">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <a href="site.html">
+                <section class="logo">
+                    <img src="./images/icone.png" alt="LOGO">
+                </section>
+            </a>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="site.html">Início</a></li>
+                    <li><a href="informacoes.html">Informações</a></li>
+                    <li><a href="personagens.html">Personagens</a></li>
+                    <li><a href="musicas.html">Músicas</a></li>
+                    <li class="dropdown">
+                        <a href="site.html">Futebol</a>
+                        <div class="dropdown-content">
+                            <a href="time.html">Time</a>
+                            <a href="jogos.html">Jogos</a>
+                            <a href="camisas.html">Camisas</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <section class="dark-mode">
+                <button id="dark-mode-toggle">
+                    <img src="./images/darkmode.png" alt="Modo Escuro">
+                </button>
+            </section>
+        </div>
+    </header>
+
+    <main id="jogos">
+        <div class="icon-container">
+            <img src="./images/cabeçario.png" class="ICONEPRINCIPAL" alt="Cabeçário">
+        </div>
+        <div class="caixa-branca" id="caixa-branca">
+            <div class="header">
+                <img src="./images/copa.jfif" class="copa">
+                <h1 class="page-header__title">Jogos</h1>
+            </div>
+            
+            <div class="faixa-azul"></div>
+
+            <section class="carousel">
+                <div class="carousel-container">
+                    <div class="carousel-slide">
+                        <div class="carousel-item">
+                            <img src="./images/jogo1.png" class="carousel-image" alt="Jogo 1">
+                            <div class="carousel-caption">
+                                <div class="match-info">
+                                    <h3>Amistoso</h3>
+                                    <p>Campão</p>
+                                    <p>ENCERRADO</p>
+                                    <div class="teams">
+                                        <div class="team">
+                                            <span class="team-name">INF1A</span>
+                                            <span class="team-score">5</span>
+                                        </div>
+                                        <div class="team">
+                                            <span class="team-name">ELT2</span>
+                                            <span class="team-score">14</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/jogo2.png" class="carousel-image" alt="Jogo 2">
+                            <div class="carousel-caption">
+                                <div class="match-info">
+                                    <h3>Amistoso</h3>
+                                    <p>Campão</p>
+                                    <p>ENCERRADO</p>
+                                    <div class="teams">
+                                        <div class="team">
+                                            <span class="team-name">INF1</span>
+                                            <span class="team-score">1</span>
+                                        </div>
+                                        <div class="team">
+                                            <span class="team-name">INF3</span>
+                                            <span class="team-score">3</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/jogo3.png" class="carousel-image" alt="Jogo 3">
+                            <div class="carousel-caption">
+                                <div class="match-info">
+                                    <h3>AMISTOSO</h3>
+                                    <p>CAMPÃO</p>
+                                    <p>ENCERRADO</p>
+                                    <div class="teams">
+                                        <div class="team">
+                                            <span class="team-name">INF1A</span>
+                                            <span class="team-score">5</span>
+                                        </div>
+                                        <div class="team">
+                                            <span class="team-name">ELT1A</span>
+                                            <span class="team-score">2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/jogo4.png" class="carousel-image" alt="Jogo 4">
+                            <div class="carousel-caption">
+                                <div class="match-info">
+                                    <h3>FASE DE GRUPOS</h3>
+                                    <p>QUADRA</p>
+                                    <p>ENCERRADO</p>
+                                    <div class="teams">
+                                        <div class="team">
+                                            <span class="team-name">INF1</span>
+                                            <span class="team-score">8</span>
+                                        </div>
+                                        <div class="team">
+                                            <span class="team-name">EBM1</span>
+                                            <span class="team-score">5</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-button prev" id="prevBtn">&#10094;</button>
+                <button class="carousel-button next" id="nextBtn">&#10095;</button>
+                <div class="carousel-dots" id="carouselDots">
+                    <span class="dot" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                    <span class="dot" data-index="3"></span>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
